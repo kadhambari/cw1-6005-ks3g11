@@ -2,7 +2,7 @@ Format: 1.8
 Date: Tue, 14 Feb 2012 12:33:21 +0000
 Source: cw1-6005-ks3g11
 Binary: cw1-6005-ks3g11
-Architecture: source amd64
+Architecture: source all
 Version: 1.0
 Distribution: unstable
 Urgency: low
@@ -15,14 +15,14 @@ Changes:
  .
    * Initial Release.
 Checksums-Sha1: 
- 5debe33037769d265e273c05903f61acaf10cdb4 611 cw1-6005-ks3g11_1.0.dsc
- e42dcfc9b8fe7bea3e454ecdb564d8f77d8befad 14293 cw1-6005-ks3g11_1.0.tar.gz
- 4b8284acf26f3eedf3e361f5ccc95d8954034a77 5478 cw1-6005-ks3g11_1.0_amd64.deb
+ dfda791c4349af6402172175d55d4a353ac38c8e 556 cw1-6005-ks3g11_1.0.dsc
+ 0daedcafa008eb432e25a8d27f8e61be841b8054 15644 cw1-6005-ks3g11_1.0.tar.gz
+ cc2afdd4099c655d37516db9f1b211a644677058 7210 cw1-6005-ks3g11_1.0_all.deb
 Checksums-Sha256: 
- 71b40cd25c84d670363d9f8b174ed11505e25dde6bce1b8033e6d5087f718ec2 611 cw1-6005-ks3g11_1.0.dsc
- d7f28b68e4b474fee424f06c734ee3efd0b75153eb9400212f71f7a43df5cce1 14293 cw1-6005-ks3g11_1.0.tar.gz
- 6034b63706dd55c892c2228b4cdb5a9fc485864f0393947dd9a24525b764f842 5478 cw1-6005-ks3g11_1.0_amd64.deb
+ 1abd6681dd43cb2e3a3dea84827e55a47196ebd1d943dd434c2f29ce0459b7b2 556 cw1-6005-ks3g11_1.0.dsc
+ 5dce27dab8716bb0c27ff25242513ef02377ff99ccd3a260a2f970b9cafc8fb7 15644 cw1-6005-ks3g11_1.0.tar.gz
+ af55d21d1bfb778ff240c169d046c39d27e80068094b24d72a286d4ef49c73e1 7210 cw1-6005-ks3g11_1.0_all.deb
 Files: 
- d9af3153748912e3de684abb61fcf039 611 misc extra cw1-6005-ks3g11_1.0.dsc
- d3d29e8f8c8bc06a783046678acab9eb 14293 misc extra cw1-6005-ks3g11_1.0.tar.gz
- 18c7df061d56bc7cf63771ce4bcc6a00 5478 misc extra cw1-6005-ks3g11_1.0_amd64.deb
+ fa3ae7d37776a2d46c2202ed67cf97af 556 misc extra cw1-6005-ks3g11_1.0.dsc
+ f95cbe7aa15de536d07d26283b066688 15644 misc extra cw1-6005-ks3g11_1.0.tar.gz
+ ff90149e5c5607b1d79825a0d7d5361b 7210 misc extra cw1-6005-ks3g11_1.0_all.deb
