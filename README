@@ -3,7 +3,7 @@ The Debian Package cw1-6005-ks3g11
 1)Create a directory called 'cw1-6005-ks3g11/cw1-6005-ks3g11-1.0'.
 2)Download all the given source files into the directory created.
 3)Create a tar file called 'cw1-6005-ks3g11-1.0.tar.gz' of the source files.
-4)Create the other required files using dh_make command.
+4)Create the other required files using dh_make command.And we have created the rules file for the source and script to invoke the php.
 5)Build the files using debuild command, which inturn creates a decsription file and .deb package.
 6)Run lintian on the .deb package to see any errors and warnings and correct them if any.
 7)Inside the debian directory, create an empty file called 'dir' and enter ﻿usr/share/cw1-6005-ks3g11, usr/bin, usr/share/man/man1 to specify the path for our output files.
