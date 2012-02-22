@@ -1,6 +1,20 @@
 The Debian Package cw1-6005-ks3g11
 ----------------------------
+1)Create a directory called 'cw1-6005-ks3g11/cw1-6005-ks3g11-1.0'.
+2)Download all the given source files into the directory created.
+3)Create a tar file called 'cw1-6005-ks3g11-1.0.tar.gz' of the source files.
+4)Create the other required files using dh_make command.
+5)Build the files using debuild command, which inturn creates a decsription file and .deb package.
+6)Run lintian on the .deb package to see any errors and warnings and correct them if any.
+7)Inside the debian directory, create an empty file called 'dir' and enter ﻿usr/share/cw1-6005-ks3g11, usr/bin, usr/share/man/man1 to specify the path for our output files.
+8)Create another empty file called 'cw1-6005-ks3g11.install' and enter src/* usr/share/cw1-6005-ks3g11, ks3g11 usr/bin to specify the path of the destination after installation.
+9)Add the required files into the git repository and commit them. Commit them again if any further changes are made to the files after each step.
+10)Create an empty file inside the directory cw1-6005-ks3g11-1.0 called 'ks3g11' and enter #!/bin/bash, php /usr/share/cw1-6005/ks3g11/index.php $* to specify the command for installing our package.
+11)In the index.php source file, specify the path of the config file as /usr/share/cw1-6005-ks3g11/feeds.conf.
+12)After making all the necessary changes commit the files into git repository and build the package again.
+13)Install php5 using sudo apt-get install php5-cli command if the machine does not have php5.
+14)Now install the package using sudo dpkg -i cw1-6005-ks3g11_1.0_all.deb
+15)We have given the name 'ks3g11' for the script, to run the php code.
+16)So after installing, we invoke the code using the command 'ks3g11', which displays the contents of our package.
 
-Comments regarding the Package
-
- -- ks3g11 <ks3g11@soton.ac.uk>  Tue, 14 Feb 2012 12:33:21 +0000
+ -- kadhambari subramanian <ks3g11@soton.ac.uk>  Tue, 14 Feb 2012 12:33:21 +0000
